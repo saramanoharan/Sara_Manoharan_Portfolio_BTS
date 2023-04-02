@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+<title>Portfolio - Sara Manoharan</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('photo.jpg');
+  min-height: 100%;
+}
+</style>
+<body>
+
+<!-- Côté gauche avec image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Le menu bar (click dessus) -->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#accueil" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">ACCUEIL</a>
+    <a href="#btssio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">BTS SIO</a>
+    <a href="#stage" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">STAGE</a>
+    <a href="#projet" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">PROJETS</a>
+    <a href="#veille" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">VEILLE TECHNOLOGIQUE</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">CONTACT</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:128px 16px" id="accueil">
+    <h1 class="w3-jumbo"><b>Sara Manoharan</b></h1>
+    <p>Développeuse web</p>
+    <img src="photo.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <img src="photo.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+    <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+      <i class="fa fa-download"><a href="cv.pdf" target="_blank"></i> Télécharger mon Curriculum Vitæ</a>
+    </button>
+  </header>
+<div class="w3-padding-32 w3-content">
+  <p>« Je m’appelle Sara Manoharan, je suis actuellement étudiante en deuxième année d'un BTS SIO (Services Informatiques aux Organisations) option SLAM (Solutions Logicielles et Applications Métiers) au Lycée Parc de Vilgénis - Massy. La promo 2021 - 2023.
+    <br>
+    Passionnée par le domaine du développement web & la cybersécurité, j’ai acquis, au cours de mon BTS, des connaissances en programmation, en cybersécurité et en administration de base de données.
+    <br>
+    Personne motivée et dynamique que j'ai décidé de m'en orientée dans cette voie. »
+    <br>
+  </p>
+    <!-- Mes compétences -->
+    <h3 class="w3-padding-16">Mes Compétences :</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Informatiques</li>
+          <li class="w3-padding-16">Java / Python</li>
+          <li class="w3-padding-16">HTML / CSS / Php</li>
+          <li class="w3-padding-16">SQL / JavaScript </li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Qualités</li>
+          <li class="w3-padding-16">Esprit d'équipe</li>
+          <li class="w3-padding-16">Dynamique & Autonome</li>
+          <li class="w3-padding-16">Relation client</li>
+        </ul>
+      </div>
+    </div>
+    <br><br>
+    <!-- End Mes compétences -->
+
+    <!-- Mes formations -->
+    <h3 class="w3-padding-16">Mes Formations :</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-card w3-hover-shadow">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32 w3-center">BAC STMG</li>
+          <li class="w3-padding-16">
+            Période : 2017 - 2020<br>
+            Lycée Jean Macé, Vitry-sur-Seine<br>
+            -------------------------------------------------<br>
+            STMG : Sciences et Technologies du Managements et de la Gestion<br>
+            Option : Système de l'information et de Gestion<br>
+            -------------------------------------------------<br>            
+            Obtention du Baccalauréat (sans mention)<br>
+          </li>
+      </div>
+
+      <div class="w3-third">
+        <ul class="w3-ul w3-card w3-hover-shadow">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32 w3-center">DUT STID</li>
+          <li class="w3-padding-16">
+            Période : 2020 - 2021<br>
+            IUT de Paris, Paris 16ème<br>
+            -------------------------------------------------<br>
+            STID : Statistiques mathématiques et probabilités<br><br><br>
+            -------------------------------------------------<br>
+            Pas valide<br><br>
+          </li>
+      </div>
+
+      <div class="w3-third">
+        <ul class="w3-ul  w3-card w3-hover-shadow">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32 w3-center">BTS SIO</li>
+          <li class="w3-padding-16">
+            Période : 2021 - 2023<br>
+            Lycée Parc de Vilgénis, Massy<br>
+            -------------------------------------------------<br>
+            SIO : Services Informatiques aux Organisations<br>
+            Option : Solutions Logicielles et Applications Métiers<br>
+            -------------------------------------------------<br>
+            En cours <br><br>
+          </li>
+      </div>
+    </div>
+    <!-- End Mes formations -->
+    
+  <!-- Bts sio Section -->
+  <div class="w3-padding-32 w3-content" id="btssio">
+    <h2 class="w3-text-grey">BTS SIO : </h2>
+    <hr class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <h2>Option SLAM : </h2>
+        <p>L’acronyme SLAM signifie « Solutions Logicielles et Applications Métier ». Voici quelques indications sur cette option du BTS SIO, ainsi des précisions sur cette formation et ses débouchés.
+        L’option SLAM est destinée aux étudiants qui s’orientent vers les métiers liés à la conception et la maintenance de programmes applicatifs. Grâce à des cours spécifiques, les diplômés seront capables de gérer un parc informatique ou d’administrer un réseau au sein d’une entreprise.
+        Ils pourront également gérer l’intégration, la sécurisation et la configuration des serveurs, mais aussi des postes clients et des équipements d’interconnexion.<br>
+        Voici les débouchés avec un BTS SIO SLAM :
+        <li>Développeur d'applications informatiques </li>
+        <li>Développeur informatique</li>
+        <li>Analyste d'applications ou d'études</li>
+        <li>Analyste programmeur</li>
+        <li>Chargé d'études informatiques</li>
+        <li>Informaticien d'études</li>
+        <li>Programmeur analyste</li>
+        <li>Programmeur d'applications</li>
+        <li>Responsable des services applicatifs</li>
+        <li>Technicien d'études informatiques</li>
+        </p>
+      </div>
+
+      <div class="w3-half">
+        <h2>Option SISR : </h2>
+        <p>L’acronyme SISR signifie « Solutions d’infrastructure, systèmes et réseaux ». Voici quelques indications sur cette option du BTS SIO, ainsi des précisions sur cette formation et ses débouchés. 
+        L’option SISR est destinée aux étudiants qui s’orientent vers les métiers liés à la conception et la maintenance d’infrastructures réseaux. Assurer la sécurité, la maintenance et l’installation des réseaux et des équipements informatiques font partie des principales missions des futurs administrateurs, techniciens ou pilotes d’exploitation.
+        Des cours plus généraux viendront compléter la formation et apporter des compétences plus généralistes, permettant ainsi aux diplômés d’être opérationnels dans n’importe quelle entreprise.<br>
+        Voici les débouchés avec un BTS SIO SISR:
+        <li>Technicien de production</li>
+        <li>Technicien d’infrastructure</li>
+        <li>Technicien réseau et télécoms</li>
+        <li>Technicien systèmes et réseaux</li>
+        <li>Administrateur systèmes et réseaux</li>
+        <li>Support systèmes et réseaux</li>
+        <li>Pilote d’exploitation</li>
+        <li>Informaticien support et déploiement</li>
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- End Bts sio Section -->
+  
+  <!-- Stage Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="stage">
+    <h2>STAGE</h2>
+    <hr class="w3-opacity">
+    <p>Lors de ma formation en BTS SIO, j'ai pu réalisé deux stages dans le domaine de l'informatique.</p>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div>
+        <h2>→ Assistante au pôle Systèmes d'informations & numérique - FFT</h2>
+        <p>Domaine : Développement informatiques - programmations<br>
+          Lieu : Boulogne-Billancourt<br>
+          Date : 30 Mai 2022 - 08 Juillet 2022<br>
+          Les tâches / missions attendu:
+        <li>Coder et mettre en place des améliorations des projets (déjà existants)</li>
+        <li>Documentation pour améliorer mes connaissances</li>
+        <li>Réalisations des missions (wording) sous Adoc</li>
+          <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+           <i class="fa fa-download"><a href="RapportStageFFT.pdf" target="_blank"></i> Rapport de Stage - FFT</a>
+          </button><br>
+        <div class="w3-row-padding" style="margin:0 -16px">
+            <br><img src="m1FFT.jpg"/><br>
+            <h4>Mission n°1 - Suppression des info bulles ainsi que modification du texte <br></h4>
+            <li>ENGAGEMENT</li>
+                - A confirmer <br>
+                -A valider > Transmis <br>
+                - Validé
+            <li>FICHE</li>
+                - A saisir <br>
+                - A valider > Transmise<br>
+                - Validé > Validée<br>
+            <br>
+            <img src="m2FFT.jpg"/><br>
+            <h4>Mission n°2 - Modification du texte</h4>
+            <li>Configuration :</li>
+                * Paramétrage > Paramétrage général<br>
+                * Etat de contrôle > Fiche du club<br>
+            <li>Adhérent :</li>
+                * Ajouter un membre > Ajouter un adhérent<br>
+            <li>Communication :</li>
+                * Messages > Mails<br>
+            <br>
+            <img src="m3FFT.jpg"/><br>
+            <h4>Mission n°3 - Modification du texte</h4>
+            Wording menu : Liste des comptes devient Comptes<br>
+            <br>
+            <img src="m4FFT.jpg"/><br>
+            <h4>Mission n°4 - Affichage et Modification de texte</h4>
+            <li>Afficher les court et équipement partagées dans la liste déroulante "Court et équipement"</li>
+            <li>Ajouter le court suivi du nom de l'installation dans la colonne "Court et équipement"</li>
+        </div>
+        </p>
+      </div>
+      <hr class="w3-opacity">
+      <div>
+        <h2>→ Développeuse Web - World Parnassus</h2>
+        <p>Domaine : Développement informatiques - programmations<br>
+          Lieu : Paris Haussmann<br>
+          Date : 03 Janvier 2023 - 17 Février 2023<br><br>
+          Les tâches / missions attendu:
+        <li>Suivi de formation en Java et réalisation d'un projet d'application console à la fin</li>
+        <li>Documentation pour améliorer mes connaissances</li>
+        <li>Participation au projet de l'entreprise</li><br>
+        <div class="w3-row-padding" style="margin:0 -16px">
+            <img src="m1WP.jpg"/><br>
+        </div>
+        </p>
+      </div>
+    </div>
+  </div>
+<!-- End Stage Section -->
+
+  <!-- Projet Section -->
+  <div class="w3-padding-32 w3-content" id="projet">
+    <h2 class="w3-text-grey">PROJET: </h2>
+    <hr class="w3-opacity">
+    <p>Lors de ma formation en BTS SIO, j'ai pu réalisé 4 projets dans le domaine de l'informatique.</p>
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div>
+        <h4>Premier Projet : Gestion de Zoo (Avec Ilyess M.)<br></h4>
+        <img src="pzoo.jpg"/><br>
+        <a href="https://youtu.be/7KqrZM5UJRk">Une petite vidéo</a><br>
+        Ce projet, devait à la fois servir de gestion pour les employé(e)s, animaux et enclos. 
+      </div>
+      <hr class="w3-opacity">
+      <div>
+        <h4>Deuxième projet : Projet Restaurant (Avec Alyssa P. & Benjamin V.)</h4><br>
+        <img src="plibre.jpg"/><br>
+        Ce projet regroupe tous les restaurants de tout types présents dans chaque département.<br>
+        Les restaurateurs qui souhaitent s'inscrire pour être présent sur la carte peuvent bénéficier d'un système de fidélité (points - réductions - parrainage). 
+      </div>
+      <hr class="w3-opacity">
+      <div>
+        <h4>Troisième projet : Projet Gacti</h4><br>
+        <img src="logo.jpg"/><br>
+        C'est un projet de gestion d'animation / d'activité.
+      </div>
+      <hr class="w3-opacity">
+      <div>
+        <h4>Quatrième projet : Projet de gestion de prestation pour prestataire</h4><br>
+        <img src="pgpresta.jpg"/><br>
+        C'est un projet de gestion pour prestataire. Ils peuvent réaliser / enregistrer des prestations pour des clients et générer des devis. 
+      </div>
+      <hr class="w3-opacity">
+      <div>
+        <h4>Projet personnelle : Sara Manoharan Photographie</h4><br>
+        <a href="https://saramanoharan.github.io/Sara_Manoharan_Photographie/">Voir plus du projet !</a><br>
+        <img src="pperso.jpg"/><br>
+        C'est un projet que j'ai réalisé car j'aime la photographie.
+      </div>
+  <!--    End photo grid -->
+    </div>
+  <!-- End Projet Section -->
+  </div>
+
+  <!-- Veille technologique Section -->
+  <div class="w3-padding-32 w3-content" id="veille">
+    <h2 class="w3-text-grey">Veille Technologique : </h2>
+    <hr class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-section">
+        <h2>Pour mettre en place, j'ai utilisés les outils suivants :</h2>
+          <li>Les réseaux sociaux</li>
+          <li>Recherches sur internet</li>
+
+        <h2>Qu'est ce qu'une veille technologique ?</h2>
+          <p>La veille technologique consiste à s’informer et / ou surveiller l'évolution de façon systématique sur les techniques les plus récentes et surtout sur leur mise à disposition (ce qui constitue la différence entre la technique et la technologie).
+          La veille Technologique met en œuvre des techniques d’acquisition, de stockage et d’analyse d’informations. Ces informations peuvent concerner une matière première, un produit, un composant, un procédé, l’état de l’art et l’évolution de l’environnement scientifique, technique, industriel ou commercial de l’entreprise etc.
+          Le but est de faire une évaluation de l'impact sur l'environnement et l'organisation.
+          </p>
+      </div>
+      <div class="w3-section">
+        <h2>Qu'est ce qu'est la cybersécurité ?</h2>
+          <p>La cybersécurité sert à protéger les ordinateurs, les serveurs, les appareils mobiles, les systèmes éléctroniques, les réseaux et les données contre les attaques malveillantes. On l’appelle également sécurité informatique ou sécurité des systèmes d'information. Vous pouvez la rencontrer dans de nombreux contextes, de l'informatique d'entreprise aux appareils mobiles. Elle peut être divisée en plusieurs catégories: 
+          <dt>- La sécurité des réseaux :</dt>
+            <dd>Protéger le réseau informatique contre les intrus, qu'il s'agisse d'attaques ciblées ou de malwares opportunistes.</dd><br>
+          <dt>- La sécurité des applications :</dt>
+            <dd>Protéger les logiciels et les appareils contre les menaces. Une application corrompue pourrait ouvrir l'accès aux données qu'elle est censée protéger. Un système de sécurité fiable se reconnaît dès l'étape de conception, bien avant le déploiement d'un programme ou d'un appareil.</dd><br>
+          <dt>- La sécurité des informations :</dt>
+            <dd>veille à garantir l'intégrité et la confidentialité des données, qu'elles soient stockées ou en transit.</dd><br>
+          <dt>- La sécurité opérationnelle :</dt>
+            <dd>Les processus et les décisions liés au traitement et à la protection des données. Les autorisations des utilisateurs pour l'accès au réseau et les procédures qui définissent le stockage et l'emplacement des données relèvent de ce type de sécurité.</dd>
+       <br>
+        <div class="w3-center">
+            <div>
+              <img src="cybmenace1.jpg">
+            </div>
+        </div>
+        <br>
+        <h2>Qu'est ce qu'est la cybermenace ?</h2>
+          Les cybermenaces évoluent rapidement, et le nombre de violations des données font qu'augmenter chaque année. Une cybermenace correspond au risque d’attaque de systèmes informatiques privés ou publics. La menace peut aussi bien être intérieure qu’extérieure, et provient de hackers (personnes spécialisées dans la manipulation d’un système informatisé qui est capables d’exploiter ses failles de sécurité).<br><br>
+          Les types de cybermenaces : <br>
+          <li>la cybercriminalité : <dd>Des acteurs isolés ou des groupes qui ciblent des systèmes pour des gains financiers ou des perturbations.</dd></li>
+          <li>les cyberattaques : <dd>Collecte d'informations pour des raisons politiques.</dd></li>
+          <li>le cyberterrorisme : <dd>Faire affaiblir les systèmes électroniques qui provoque panique ou / et peur</dd></li><br>
+          Les malwares sont des logiciels malveillants. Le malware, l'une des cybermenaces les plus courantes, est un logiciel créé par un cybercriminel ou un hacker pour perturber ou endommager l'ordinateur d'un utilisateur. Souvent propagé via la pièce jointe d'un email indésirable ou un téléchargement d'apparence sûr, le malware peut être utilisé par les cybercriminels pour gagner de l'argent ou lors de cyberattaques sur fond de politique.
+        <br><br>
+          Mais les méthodes utilisées sont : 
+          <li>Virus : Programme qui s'attache à un fichier sain et se propage dans tout le système en infectant les fichiers à l'aide d'un code malveillant.</li>
+          <li>Cheval de Troie : Programmes malveillants qui se fait passer pour un ou des logiciel(s) authentique(s). Les cybercriminels poussent les utilisateurs à télécharger des chevaux de troie dans leur ordinateur, serveur, etc. pour endommager ou collecter des données. </li>
+          <li>Spyware : Programme espion qui enregistre discrètement les actions des utilisateurs. </li>
+          <li>Ransomware : Un virus / malware qui verrouille les fichiers et les données des utilisateurs à distance. L'attaquant demande une rançon aux utilisateurs contre des menaces. </li>
+          <li>Adware : Logiciel qui envoi le malware.</li>
+          <li>Les injections SQL : Un type de cyberattaque qui sert à contrôler et voler les données d'une base de données. Ils exploitent les vulnérabilités. Insertion de code malveillant dans une base de données via des requêtes SQL. Au final, ls ont accès à toutes les informations sensibles enregistrés dans une base de données.</li>
+          <li>Phishing : C'est des emails envoyer aux utilisateurs pour récupérer des informations personnelles.</li>
+        <br>
+        <div class="w3-center">
+            <div>
+              <img src="cyb.jpg">
+            </div>
+        </div>
+        <h2><B>Le sujet : " L'évolution des techniques d'attaque et de défense de sécurité informatique."</h2></B>
+        Les pirates informatiques sont à la recherche de nouvelles méthodes pour corrompre les systèmes informatiques et les données sensibles. Les professionnels de la sécurité informatique cherchent à améliorer les méthodes de détection et de prévention des cyberattaques. <br>
+
+        <h5>Les récentes cyberattaques :</h5>
+        <a href="https://www.ouest-france.fr/societe/cyberattaque/le-portail-des-lyceens-en-ile-de-france-touche-par-un-cyber-incident-a8d1c22c-c4f1-11ed-93d7-4c4cd65beb9c" target="_blank"><dd>Le portail des lycéens en Ile-de-France touché par un "cyber-incident"</dd></a><br>
+        <a href="https://www.usine-digitale.fr/article/des-hackers-ont-infiltre-microsoft-exchange-pour-derober-des-informations-hautement-sensibles.N1131164" target="_blank"><dd>Des hackers ont inflitré Microsoft Exchange pour dérober des informations hautement sensibles</dd></a><br>
+        <a href="https://www.leparisien.fr/high-tech/le-fournisseur-metro-touche-par-une-panne-informatique-aux-faux-airs-de-cyberattaque-20-10-2022-N6CSJ55WJNBDTJ7M3Y76DFE4RQ.php#:~:text=Le%20grossiste%20alimentaire%20Metro%20Group,en%20r%C3%A9alit%C3%A9%20d'une%20cyberattaque." target="_blank"><dd>Fournisseur Metro victime d'une cyberattaque</dd></a><br>
+        <a href="https://www.lefigaro.fr/flash-actu/russie-des-radios-et-des-televisions-diffusent-de-fausses-alertes-antiaeriennes-apres-un-piratage-20230228" target="_blank"><dd>Russie - Des radios et des télévisions diffusent de fausses alertes antiaériennes après un piratage</dd></a><br>
+        <a href="https://www.lefigaro.fr/international/moscou-a-mene-plus-de-4500-cyberattaques-contre-l-ukraine-en-2022-accuse-kiev-20221227" target="_blank"><dd>Moscou a mené plus de 4500 cyberattaques contre l'Ukraine en 2022( accuse Kiev)</dd></a>
+        <br>
+        <h5>Les projets de lois et réglementations mises en place :</h5>
+        <a href="https://www.usine-digitale.fr/article/assurance-un-projet-de-loi-clarifie-le-cadre-de-l-indemnisation-des-rancons-en-cas-de-cyberattaque.N2041292" target="_blank"><dd>Assurance : un projet de loi clarifie le cadre de l'indemnisation des rançons en cas de cyberattaque</dd></a>
+        <br>
+        <h5>Les sanctions / solutions : </h5>
+        <a href="https://www.lefigaro.fr/faits-divers/deux-hommes-condamnes-pour-le-piratage-informatique-d-une-ars-20221126" target="_blank"><dd>Deux hommes condamnés pour le piratage informatique d'une ARS</dd></a><br>
+        </p>
+      </div>
+      <h2>Les avantages & inconvénients de la cybersécurité :</h2>
+       <p>Tout d'abord, la cybersécurité on en retrouve partout !! Dans tous les logiciels, appareils et tous les domaines.
+        <h5>Les avantages : </h5>
+        <li>La cybersécurité permet de protéger les systèmes informatiques contre les attaques malveillantes (virus, logiciels malveillants et les pirates informatiques).</li>
+        <li>Confidentialité et protection des données.</li>
+        <li>Prévenir les vols d'informations sensibles.</li>
+        <li>Réduire les coûts de pertes de données, de temps, etc.</li>
+        <li>Protéger et garder une bonne réputation et une image.</li>
+       </p>
+      <h5>Les incovénients :</h5>
+      <li>La mise en place d'un système de cybersécurité est coûteux.</li>
+      <li>Les connaissances et compétences difficiles à acquérir peut être une faiblesse pour l'efficacité de la cybersécurité.</li>
+      <li>Négligence des autres aspects de la sécurité informatique.</li>
+      <h2>Conclusion :</h2>
+      Pour les entreprises de petites ou / et grandes, la cybersécurité est devenue une source de préoccupation. La cybersécurité a ces avantages comme ces inconvénients. C'est un domaine essentiel pour toutes les entreprises. Pour le bon fonctionnement, une bonne stratégie efficaces doit être mit en place afin de protéger les systèmes ainsi que les données.
+  <!--    End photo grid -->
+    </div>
+  <!-- End Bts sio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:70px">
+    <h2>Contact Me</h2>
+    <hr class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Vitry-sur-Seine, France</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> +33 6 52 11 27 71</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"></i> saramanoharan1@gmail.com</p>
+    </div>
+
+    <h2>Formulaire de contact : </h2>
+    <form id='contact' method="post" action="mailto:saramanoharan1@gmail.com?subject=Contact portfolio" enctype="multipart/form-data">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> Envoyer
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+    <a href="#accueil" class="w3-button w3-light-dark"><i class="fa fa-arrow-up w3-margin-right" font-family="Montserrat", sans-serif> Repartir là-haut</i></a><br>
+    <a href="https://linkedin.com/in/sara-manoharan" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/mano__sas/?hl=fr" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+
+    <p class="w3-hide-small">&copy; Sara Manoharan</p>
+  <!-- End footer -->
+  </footer>
+<!-- END PAGE CONTENT -->
+</div>
+
+  
+<script>
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "50%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
